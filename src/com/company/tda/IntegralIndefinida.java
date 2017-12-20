@@ -25,7 +25,7 @@ public class IntegralIndefinida {
     static void Vt(double vi, double ti){
         /*
         Calcularemos la velocidad en un tiempo determinado, para ello empezamos con la aceleración, el valor de la aceleración es igual a(t)= -9.8 .
-        Esta es aceleración de la gravedad que provoca que los cuerpos aumenten o disminuyan su velocidad. Integraremos la contante con respecto al tiempo
+        Esta es aceleración de la gravedad que provoca que los cuerpos aumenten o disminuyan su velocidad. Integraremos la constante con respecto al tiempo
         obtenemos v(t) =  ∫ (-9.8)dt es igual a v(t)= -9.8t + C1, donde c es la constante que se obtiene de la velocidad inicial del proyectil
          */
         DecimalFormat format = new DecimalFormat("0.00");//Llamamos al constructor de clase DecimalFormat para limitar el numero de decimales dandole un formato
